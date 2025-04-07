@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ページタイトル | comoco（ここも）</title>
+  
+  <!-- フォントの読み込み -->
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- 外部CSSファイルの読み込み -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- ファビコンの設定 -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="logo-area">
+        <a href="index.html">
+            <img src="images/logo.png" alt="comoco" class="header-logo">
+        </a>
+      </div>
+      
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li><a href="index.html#products">商品ラインナップ</a></li>
+          <li><a href="index.html#about">お店のこだわり</a></li>
+          <li><a href="brand.html">ブランドについて</a></li>
+          <li><a href="ingredients.html">素材のこと</a></li>
+        </ul>
+      </nav>
+      
+      <button class="mobile-menu-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="header-placeholder"></div>
+
+  <!-- ページタイトル -->
+  <div class="page-title">
+    <h1><span class="emoji">❓</span> よくあるご質問</h1>
+  </div>
+
+  <!-- メインコンテンツ -->
+  <main class="page-content">
+    <div class="content-container">
+        <div class="faq-intro">
+          <h2>お客様からよくいただくご質問をまとめました</h2>
+          
+          <div class="faq-list">
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>Q. グルテンフリーですか？</h3>
+              </div>
+              <div class="faq-answer">
+                <p>A. はい、comocoのお菓子はすべて小麦不使用のグルテンフリーです。米粉100%を使用しており、小麦アレルギーの方も安心してお召し上がりいただけます。</p>
+              </div>
+            </div>
+            
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>Q. アレルギー対応はしていますか？</h3>
+              </div>
+              <div class="faq-answer">
+                <p>A. 商品によって異なります。個別の商品ページにアレルゲン情報を記載していますのでご確認ください。なお、すべての商品は同じキッチンで製造しているため、微量の混入の可能性があることをご了承ください。</p>
+              </div>
+            </div>
+            
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>Q. 保存方法と賞味期限は？</h3>
+              </div>
+              <div class="faq-answer">
+                <p>A. 常温で約2週間〜1か月のお菓子が中心です。詳細は商品ラベルをご確認ください。開封後はなるべく早めにお召し上がりください。高温多湿を避け、冷暗所で保存することをおすすめします。</p>
+              </div>
+            </div>
+            
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>Q. 配送方法と送料について教えてください</h3>
+              </div>
+              <div class="faq-answer">
+                <p>A. 全国一律送料500円です。5,000円以上のご購入で送料無料となります。配送はヤマト運輸のネコポスまたは宅急便で行っています。</p>
+              </div>
+            </div>
+            
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>Q. 贈り物として送ることはできますか？</h3>
+              </div>
+              <div class="faq-answer">
+                <p>A. はい、ギフト包装も承っております。ご注文時に「ギフト包装希望」とお申し付けください。メッセージカードも無料で添付可能です。</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="more-questions">
+            <h3>その他のご質問</h3>
+            <p>上記以外のご質問やご不明点がございましたら、お気軽に<a href="contact.html">お問い合わせフォーム</a>からご連絡ください。</p>
+          </div>
+        </div>
+      </div>
+  </main>
+
+  <!-- フッター -->
+  <footer>
+    <div class="footer-logo">comoco</div>
+    <p>〒123-4567 東京都〇〇区△△町1-2-3</p>
+    <div class="social-links">
+        <a href="#" aria-label="Instagram">
+          <img src="images/instagram.png" alt="Instagram" />
+        </a>
+        <a href="#" aria-label="Twitter">
+          <img src="images/note.png" alt="note" />
+        </a>
+        <a href="#" aria-label="LINE">
+          <img src="images/line.png" alt="LINE" />
+        </a>
+      </div>
+    <p>
+      <a href="brand.html">ブランドについて</a> |
+      <a href="ingredients.html">素材のこと</a> |
+      <a href="faq.html">FAQ</a> |
+      <a href="contact.html">お問い合わせ</a>
+    </p>
+    <p class="footer-sub-links">
+        <a href="privacy-policy.html">プライバシーポリシー</a> |
+        <a href="legal.html">特定商取引法に基づく表記</a>
+    </p>
+    <p>&copy; 2025 comoco（こもこ）. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScriptの読み込み -->
+  <script src="script.js"></script>
+</body>
+</html>

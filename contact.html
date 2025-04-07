@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ページタイトル | comoco（ここも）</title>
+  
+  <!-- フォントの読み込み -->
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- 外部CSSファイルの読み込み -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- ファビコンの設定 -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="logo-area">
+        <a href="index.html">
+            <img src="images/logo.png" alt="comoco" class="header-logo">
+        </a>
+      </div>
+      
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li><a href="index.html#products">商品ラインナップ</a></li>
+          <li><a href="index.html#about">お店のこだわり</a></li>
+          <li><a href="brand.html">ブランドについて</a></li>
+          <li><a href="ingredients.html">素材のこと</a></li>
+        </ul>
+      </nav>
+      
+      <button class="mobile-menu-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="header-placeholder"></div>
+
+  <!-- ページタイトル -->
+  <div class="page-title">
+    <h1>お問い合わせ</h1>
+  </div>
+
+  <!-- メインコンテンツ -->
+  <main class="page-content">
+    <div class="content-container">
+        <div class="contact-intro">
+          <h2>お気軽にお問い合わせください</h2>
+          <p>商品についてのご質問、ご意見、ご感想など、お気軽にお寄せください。</p>
+        </div>
+        
+        <div class="contact-form-container">
+          <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+              <label for="name">お名前 <span class="required">*</span></label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">メールアドレス <span class="required">*</span></label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="subject">件名</label>
+              <input type="text" id="subject" name="subject">
+            </div>
+            
+            <div class="form-group">
+              <label for="message">メッセージ <span class="required">*</span></label>
+              <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+            
+            <div class="form-group">
+              <label for="inquiry-type">お問い合わせ種別</label>
+              <select id="inquiry-type" name="inquiry-type">
+                <option value="商品について">商品について</option>
+                <option value="ご注文について">ご注文について</option>
+                <option value="配送について">配送について</option>
+                <option value="取材・メディア関連">取材・メディア関連</option>
+                <option value="その他">その他</option>
+              </select>
+            </div>
+            
+            <div class="form-group checkbox-group">
+              <input type="checkbox" id="privacy" name="privacy" required>
+              <label for="privacy">プライバシーポリシーに同意します <span class="required">*</span></label>
+            </div>
+            
+            <div class="form-submit">
+              <button type="submit" class="submit-button">送信する</button>
+            </div>
+          </form>
+        </div>
+        
+        <div class="contact-info">
+          <h3>その他のお問い合わせ方法</h3>
+          <p>お電話でのお問い合わせ: 03-XXXX-XXXX（営業時間: 平日10:00〜17:00）</p>
+          <p>メールでのお問い合わせ: info@comoco.example.com</p>
+        </div>
+      </div>
+  </main>
+
+  <!-- フッター -->
+  <footer>
+    <div class="footer-logo">comoco</div>
+    <p>〒123-4567 東京都〇〇区△△町1-2-3</p>
+    <div class="social-links">
+        <a href="#" aria-label="Instagram">
+          <img src="images/instagram.png" alt="Instagram" />
+        </a>
+        <a href="#" aria-label="Twitter">
+          <img src="images/note.png" alt="note" />
+        </a>
+        <a href="#" aria-label="LINE">
+          <img src="images/line.png" alt="LINE" />
+        </a>
+      </div>
+    <p>
+      <a href="brand.html">ブランドについて</a> |
+      <a href="ingredients.html">素材のこと</a> |
+      <a href="faq.html">FAQ</a> |
+      <a href="contact.html">お問い合わせ</a>
+    </p>
+    <p class="footer-sub-links">
+        <a href="privacy-policy.html">プライバシーポリシー</a> |
+        <a href="legal.html">特定商取引法に基づく表記</a>
+    </p>
+    <p>&copy; 2025 comoco（こもこ）. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScriptの読み込み -->
+  <script src="script.js"></script>
+</body>
+</html>
